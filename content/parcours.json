@@ -1,0 +1,100 @@
+[
+  [
+    "debuter",
+    "Je découvre l’IA",
+    "25 minutes pour comprendre, essayer et vérifier.",
+    25,
+    [
+      "glossaire-ia-generative",
+      "glossaire-hallucination",
+      "un-bon-prompt-en-six-reperes",
+      "fiche-de-preparation-express",
+      "verifier-sans-se-fier-a-l-assurance-de-l-ia",
+      "proteger-les-donnees-avant-un-premier-essai",
+      "declarer-l-usage-de-l-ia-dans-un-travail"
+    ]
+  ],
+  [
+    "preparer",
+    "Je prépare un cours",
+    "Du programme aux activités, avec une vérification à chaque étape.",
+    30,
+    [
+      "objectifs-observables-et-criteres-de-reussite",
+      "sequence-complete-alignee-programme",
+      "trois-niveaux-de-difficulte",
+      "faire-classe-avec-peu-de-connexion"
+    ]
+  ],
+  [
+    "evaluer",
+    "Je crée une évaluation",
+    "Des questions cohérentes, un barème et des traces d’apprentissage.",
+    30,
+    [
+      "adapter-une-evaluation-a-l-ere-de-l-ia",
+      "qcm-progressif-avec-corrige",
+      "grille-de-correction-rubrique",
+      "grille-d-evaluation-du-processus"
+    ]
+  ],
+  [
+    "temps",
+    "Je veux gagner du temps",
+    "Choisir une tâche répétitive et garder une méthode réutilisable.",
+    20,
+    [
+      "choisir-un-outil-sans-se-disperser",
+      "fiche-de-preparation-express",
+      "fiche-de-revision-et-auto-test"
+    ]
+  ],
+  [
+    "eleves",
+    "J’utilise l’IA avec mes élèves",
+    "Encadrer l’usage, préserver l’autonomie et discuter les productions.",
+    30,
+    [
+      "proteger-les-donnees-avant-un-premier-essai",
+      "declarer-l-usage-de-l-ia-dans-un-travail",
+      "une-solution-juste-pour-de-mauvaises-raisons",
+      "biais-relire-aussi-les-exemples"
+    ]
+  ],
+  [
+    "verifier",
+    "Je vérifie un contenu généré",
+    "Retrouver les preuves et signaler les incertitudes.",
+    20,
+    [
+      "glossaire-hallucination",
+      "verifier-une-reponse-generee",
+      "lecture-critique-d-un-chiffre",
+      "zotero"
+    ]
+  ],
+  [
+    "regles",
+    "Je comprends les règles",
+    "Distinguer obligations marocaines, recommandations et bonnes pratiques.",
+    25,
+    [
+      "cndp-conditions-de-traitement",
+      "cndp-transfert-de-donnees-a-l-etranger",
+      "droit-d-auteur-avant-de-copier-un-document",
+      "proteger-les-donnees-avant-un-premier-essai"
+    ]
+  ],
+  [
+    "outils",
+    "Je choisis mes outils",
+    "Partir d’un besoin et comparer sans dépendre d’une offre.",
+    20,
+    [
+      "choisir-un-outil-sans-se-disperser",
+      "chatgpt",
+      "claude",
+      "zotero"
+    ]
+  ]
+]

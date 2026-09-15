@@ -1,0 +1,70 @@
+{
+  "declarations": [
+    [
+      "college",
+      "Collège",
+      "Des phrases courtes pour raconter ce que j’ai fait.",
+      [
+        "Mon activité et la règle annoncée par mon enseignant",
+        "L’outil utilisé et la date, ou « aucune IA »",
+        "Ce que j’ai demandé (mes principaux prompts)",
+        "Ce que j’ai gardé de la réponse",
+        "Ce que j’ai changé moi-même",
+        "Comment j’ai vérifié et quelles sources j’ai lues",
+        "Ce que j’ai compris et ce que je peux refaire seul"
+      ]
+    ],
+    [
+      "lycee",
+      "Lycée",
+      "Une trace précise des apports et des vérifications.",
+      [
+        "Travail, date et niveau d’autorisation",
+        "Outils et versions si connues, ou absence d’usage",
+        "Objectifs et prompts principaux",
+        "Parties produites ou influencées par l’IA",
+        "Modifications et décisions personnelles",
+        "Vérifications effectuées et sources effectivement consultées",
+        "Limites repérées et réflexion personnelle"
+      ]
+    ],
+    [
+      "devoir-court",
+      "Devoir court",
+      "Une déclaration compacte à joindre au travail.",
+      [
+        "Outil, date et objectif (ou aucune IA)",
+        "Prompts principaux et parties concernées",
+        "Mes modifications, vérifications et sources",
+        "Ce que j’ai appris et peux expliquer seul"
+      ]
+    ],
+    [
+      "projet-long",
+      "Projet long",
+      "Un journal des étapes pour un travail suivi.",
+      [
+        "Projet, équipe ou auteur, dates et contrat d’usage",
+        "Étape 1 : objectif, outil, prompt et sortie conservée",
+        "Étape 2 : modification humaine et raison du choix",
+        "Étape 3 : contrôle des faits, calculs, références et droits",
+        "Sources consultées : auteur, titre, date, lien ou page",
+        "Répartition du travail et responsabilités individuelles",
+        "Limites, erreurs rencontrées et corrections",
+        "Bilan personnel et compétence démontrable sans assistance"
+      ]
+    ]
+  ],
+  "principles": [
+    "Partir d’un objectif d’apprentissage explicite.",
+    "Préserver le raisonnement et la responsabilité humaine.",
+    "Vérifier les faits, calculs et références.",
+    "Minimiser les données et privilégier les exemples fictifs.",
+    "Respecter les droits des personnes et des auteurs.",
+    "Annoncer les règles et déclarer les usages.",
+    "Prévoir une alternative équitable sans compte payant.",
+    "Rendre les supports accessibles et compréhensibles.",
+    "Choisir un outil proportionné au besoin.",
+    "Évaluer les effets, documenter les limites et réviser la pratique."
+  ]
+}

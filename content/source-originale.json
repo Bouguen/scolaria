@@ -1,0 +1,1081 @@
+{
+  "TOOLS": [
+    {
+      "cat": "general",
+      "catLabel": "Assistants généralistes",
+      "name": "ChatGPT",
+      "price": "Gratuit / ~20$ mois",
+      "desc": "Le plus polyvalent pour brainstormer une activité, reformuler une consigne ou produire un premier jet de support de cours. Génère aussi des images (illustrations, schémas) directement dans la conversation.",
+      "tip": "Vérifiez toujours les faits et dates avancés : les réponses restent parfois approximatives, surtout sur le programme marocain précis.",
+      "link": "https://chat.openai.com"
+    },
+    {
+      "cat": "general",
+      "catLabel": "Assistants généralistes",
+      "name": "Claude",
+      "price": "Gratuit / ~20$ mois",
+      "desc": "Particulièrement à l'aise sur les documents longs : coller un chapitre entier et demander un résumé, un jeu de questions ou une adaptation de niveau.",
+      "tip": "Bon choix pour retravailler un texte existant (manuel, ressource officielle) sans perdre les nuances.",
+      "link": "https://claude.ai"
+    },
+    {
+      "cat": "general",
+      "catLabel": "Assistants généralistes",
+      "name": "Google Gemini",
+      "price": "Gratuit / avec compte Google",
+      "desc": "S'intègre directement à Docs, Sheets et Slides — pratique si votre établissement utilise déjà Google Workspace for Education.",
+      "tip": "Utile pour générer un premier jet directement dans un document partagé avec des collègues.",
+      "link": "https://gemini.google.com"
+    },
+    {
+      "cat": "general",
+      "catLabel": "Assistants généralistes",
+      "name": "Microsoft Copilot",
+      "price": "Selon licence Microsoft 365",
+      "desc": "Assistant intégré à Word, PowerPoint et Outlook — génère des supports directement dans les outils bureautiques déjà installés.",
+      "tip": "Le plus pertinent si votre lycée dispose déjà de licences Microsoft 365 Education.",
+      "link": "https://copilot.microsoft.com"
+    },
+    {
+      "cat": "research",
+      "catLabel": "Recherche & veille fiable",
+      "name": "Perplexity",
+      "price": "Gratuit / ~20$ mois",
+      "desc": "Moteur de réponse qui combine recherche web en temps réel et synthèse par IA, avec chaque affirmation reliée à une source cliquable.",
+      "tip": "Le réflexe à prendre : toujours ouvrir au moins une source citée avant de répéter un chiffre en classe.",
+      "link": "https://www.perplexity.ai"
+    },
+    {
+      "cat": "research",
+      "catLabel": "Recherche & veille fiable",
+      "name": "NotebookLM (Google)",
+      "price": "Gratuit",
+      "desc": "Importez vos propres cours, manuels ou PDF officiels : l'outil génère résumés, questions et même un podcast audio à partir de vos seules sources, sans en sortir.",
+      "tip": "Le plus fiable des outils de cette liste pour rester fidèle à vos documents, puisqu'il ne travaille qu'à partir de ce que vous lui donnez — utile aussi pour créer un résumé audio à écouter en voiture.",
+      "link": "https://notebooklm.google"
+    },
+    {
+      "cat": "prep",
+      "catLabel": "Préparation de cours",
+      "name": "MagicSchool AI",
+      "price": "Gratuit (limité) / 12,99$ mois",
+      "desc": "Plus de 80 outils dédiés : générateur de plans de cours, de fiches d'exercices, de rubriques d'évaluation et de commentaires de bulletin, chatbot pédagogique intégré.",
+      "tip": "Interface uniquement en anglais — traduisez le résultat ensuite. Conforme FERPA/COPPA, aucune donnée utilisée pour entraîner ses modèles.",
+      "link": "https://www.magicschool.ai"
+    },
+    {
+      "cat": "prep",
+      "catLabel": "Préparation de cours",
+      "name": "Brisk Teaching",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Extension Chrome qui génère des plans de leçon, quiz et grilles directement à partir d'une page web ou d'un document déjà ouvert dans le navigateur.",
+      "tip": "Pratique pour transformer rapidement une ressource trouvée en ligne en support de classe différencié.",
+      "link": "https://www.briskteaching.com"
+    },
+    {
+      "cat": "prep",
+      "catLabel": "Préparation de cours",
+      "name": "Eduaide.ai",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Alternative à MagicSchool, orientée génération rapide de plans de leçon et de matériel pédagogique varié.",
+      "tip": "Bon second outil si MagicSchool atteint sa limite gratuite en fin de mois.",
+      "link": "https://www.eduaide.ai"
+    },
+    {
+      "cat": "prep",
+      "catLabel": "Préparation de cours",
+      "name": "TeachBetter AI",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Plateforme tout-en-un pour enseignants et élèves : plans de cours, quiz, présentations et plus de 100 simulations interactives par matière.",
+      "tip": "Ses simulations interactives sont un vrai plus pour les sciences, moins couvertes par les autres générateurs.",
+      "link": "https://www.teachbetter.ai"
+    },
+    {
+      "cat": "eval",
+      "catLabel": "Évaluation & correction",
+      "name": "Gradescope AI",
+      "price": "Selon établissement",
+      "desc": "Corrige des devoirs, quiz et examens plus rapidement : reconnaît les copies manuscrites, numériques ou du code, et harmonise la notation entre copies similaires.",
+      "tip": "Un gain de temps réel sur de gros volumes de copies, mais la relecture humaine reste indispensable avant validation finale.",
+      "link": "https://www.gradescope.com"
+    },
+    {
+      "cat": "eval",
+      "catLabel": "Évaluation & correction",
+      "name": "Quizizz IA",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Génère des quiz interactifs à partir d'un thème ou d'un texte source, avec suivi automatique des résultats de la classe.",
+      "tip": "Idéal pour une évaluation formative ludique en fin de séance, moins adapté à une évaluation sommative notée.",
+      "link": "https://quizizz.com"
+    },
+    {
+      "cat": "eval",
+      "catLabel": "Évaluation & correction",
+      "name": "Grammarly",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Retour automatique sur l'orthographe, la grammaire et la clarté d'un texte — utile pour donner un feedback rapide sur des productions écrites d'élèves.",
+      "tip": "Ne juge pas le fond, seulement la forme : à combiner avec votre propre grille d'évaluation.",
+      "link": "https://www.grammarly.com"
+    },
+    {
+      "cat": "visual",
+      "catLabel": "Supports visuels & présentation",
+      "name": "Canva pour l'Éducation",
+      "price": "Gratuit pour les enseignants",
+      "desc": "Génère quiz, fiches d'exercices et présentations à partir de vos diapositives de cours grâce à ses outils IA intégrés (Magic Design, générateur de quiz, Magic Media pour les images).",
+      "tip": "Demandez la licence GAR gratuite pour votre établissement afin d'avoir Canva Éducation directement dans l'ENT.",
+      "link": "https://www.canva.com/fr_fr/ia-pour-les-enseignants/"
+    },
+    {
+      "cat": "visual",
+      "catLabel": "Supports visuels & présentation",
+      "name": "Gamma",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Transforme un texte ou un plan en présentation visuelle soignée en quelques minutes — utile pour une intervention rapide sans passer des heures sur la mise en forme.",
+      "tip": "Générez d'abord le contenu, puis retravaillez la mise en page : le style par défaut reste assez générique.",
+      "link": "https://gamma.app"
+    },
+    {
+      "cat": "visual",
+      "catLabel": "Supports visuels & présentation",
+      "name": "Diffit",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Adapte automatiquement un même texte à plusieurs niveaux de lecture — un allié direct pour la différenciation en classes hétérogènes.",
+      "tip": "Collez un texte de manuel et demandez trois versions : la comparaison aide à calibrer vos propres attentes de niveau.",
+      "link": "https://web.diffit.me"
+    },
+    {
+      "cat": "visual",
+      "catLabel": "Supports visuels & présentation",
+      "name": "ClassPoint",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Complément PowerPoint qui ajoute quiz, nuages de mots et interactions directement dans vos diapositives existantes.",
+      "tip": "Le plus simple si vous préparez déjà tous vos cours sur PowerPoint et ne voulez pas changer d'outil.",
+      "link": "https://www.classpoint.io"
+    },
+    {
+      "cat": "image",
+      "catLabel": "Génération d'images pédagogiques",
+      "name": "Canva Magic Media",
+      "price": "Inclus dans Canva Éducation",
+      "desc": "Génère une image à partir d'une simple description texte, directement dans vos présentations ou fiches Canva — utile pour illustrer une frise, une scène historique ou un schéma.",
+      "tip": "Vérifiez systématiquement l'exactitude historique ou scientifique de l'image générée avant projection en classe.",
+      "link": "https://www.canva.com/fr_fr/ia-pour-les-enseignants/"
+    },
+    {
+      "cat": "image",
+      "catLabel": "Génération d'images pédagogiques",
+      "name": "ChatGPT Images / Gemini",
+      "price": "Inclus avec l'abonnement",
+      "desc": "Génère et modifie des images directement dans la conversation — pratique pour créer une infographie explicative (fractions, cycle de l'eau...) sans logiciel de design.",
+      "tip": "Demandez explicitement du texte lisible et correctement orthographié dans l'image : c'est souvent le point faible de ces générateurs.",
+      "link": "https://chat.openai.com"
+    },
+    {
+      "cat": "image",
+      "catLabel": "Génération d'images pédagogiques",
+      "name": "Ideogram",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Générateur d'images spécialisé dans le rendu fiable de texte à l'intérieur de l'image — utile pour des schémas légendés ou des affiches de classe.",
+      "tip": "Le meilleur choix de cette catégorie quand l'image doit contenir des mots lisibles (étiquettes, légendes).",
+      "link": "https://ideogram.ai"
+    },
+    {
+      "cat": "video",
+      "catLabel": "Vidéo & audio pédagogique",
+      "name": "CapCut AI",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Montage vidéo assisté par IA : sous-titres automatiques, découpage, effets — pour créer une courte capsule vidéo de cours ou un résumé visuel de séquence.",
+      "tip": "Les sous-titres automatiques en français restent globalement fiables ; relisez-les avant diffusion.",
+      "link": "https://www.capcut.com"
+    },
+    {
+      "cat": "video",
+      "catLabel": "Vidéo & audio pédagogique",
+      "name": "NotebookLM — Audio Overview",
+      "price": "Gratuit",
+      "desc": "Fonctionnalité de NotebookLM qui transforme vos documents de cours en un podcast audio à deux voix, résumant et discutant le contenu.",
+      "tip": "Une bonne façon de proposer une révision « à écouter » à des élèves qui mémorisent mieux à l'oral.",
+      "link": "https://notebooklm.google"
+    },
+    {
+      "cat": "interactive",
+      "catLabel": "Interactivité & engagement en classe",
+      "name": "Kahoot!",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Quiz en direct sous forme de jeu, avec classement affiché en temps réel — le plus connu et le plus immédiat à prendre en main.",
+      "tip": "Excellent pour l'énergie de fin de séance, moins adapté à une évaluation qui doit rester confidentielle entre élèves.",
+      "link": "https://kahoot.com"
+    },
+    {
+      "cat": "interactive",
+      "catLabel": "Interactivité & engagement en classe",
+      "name": "Wooclap",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Questions interactives, nuages de mots et sondages intégrés directement dans vos diapositives — fonctionne aussi en asynchrone, hors classe.",
+      "tip": "Contrairement à Kahoot, permet de gérer les questions en direct et de lancer un brainstorming collectif.",
+      "link": "https://www.wooclap.com"
+    },
+    {
+      "cat": "interactive",
+      "catLabel": "Interactivité & engagement en classe",
+      "name": "Nearpod",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Présentations collaboratives avec suivi individuel : chaque élève avance sur sa tablette pendant que vous voyez sa progression en direct.",
+      "tip": "Utile en salle informatique ou avec des tablettes ; moins pertinent sans accès individuel à un appareil.",
+      "link": "https://nearpod.com"
+    },
+    {
+      "cat": "language",
+      "catLabel": "Traduction & langues",
+      "name": "DeepL Traducteur",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Traduction reconnue pour sa qualité et sa fidélité au contexte, avec réglage du niveau de formalité — utile en classes bilingues ou pour traduire une ressource étrangère.",
+      "tip": "Nettement plus fiable que la plupart des traducteurs gratuits pour du texte académique ou technique.",
+      "link": "https://www.deepl.com"
+    },
+    {
+      "cat": "language",
+      "catLabel": "Traduction & langues",
+      "name": "DeepL Write",
+      "price": "Gratuit (bêta) / payant",
+      "desc": "Assistant de reformulation qui améliore la clarté d'un texte déjà écrit, avec choix du ton (formel, simple, amical...).",
+      "tip": "Pratique pour retravailler la formulation d'un mot aux parents ou d'une consigne d'exercice avant diffusion.",
+      "link": "https://www.deepl.com/write"
+    },
+    {
+      "cat": "math",
+      "catLabel": "Mathématiques & sciences",
+      "name": "Photomath",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Photographiez une équation ou un exercice manuscrit : l'application le résout et montre plusieurs méthodes de résolution étape par étape.",
+      "tip": "Aussi utilisé par les élèves pour « obtenir la réponse » — un bon argument pour concevoir des exercices qui demandent d'expliquer la démarche, pas seulement le résultat.",
+      "link": "https://photomath.com"
+    },
+    {
+      "cat": "math",
+      "catLabel": "Mathématiques & sciences",
+      "name": "Wolfram Alpha",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Moteur de calcul qui résout des problèmes mathématiques et scientifiques avancés avec les étapes de résolution et des représentations graphiques.",
+      "tip": "Plus robuste que Photomath sur les mathématiques de lycée avancées (fonctions, statistiques, équations complexes).",
+      "link": "https://www.wolframalpha.com"
+    },
+    {
+      "cat": "math",
+      "catLabel": "Mathématiques & sciences",
+      "name": "Mathpix",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Convertit une photo d'équation manuscrite ou imprimée en texte éditable (LaTeX) — un gain de temps pour retaper un sujet d'examen scanné.",
+      "tip": "Le plus utile pour les enseignants qui rédigent des documents avec beaucoup de formules mathématiques.",
+      "link": "https://mathpix.com"
+    },
+    {
+      "cat": "access",
+      "catLabel": "Accessibilité & inclusion",
+      "name": "Speechify",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Synthèse vocale qui transforme un texte, un PDF ou une page web en audio naturel, avec surlignage synchronisé du texte lu.",
+      "tip": "Un allié direct pour les élèves dyslexiques ou pour toute lecture longue à faire à la maison.",
+      "link": "https://speechify.com"
+    },
+    {
+      "cat": "access",
+      "catLabel": "Accessibilité & inclusion",
+      "name": "Outils d'adaptation de texte (Lire Couleur, OpenDyslexic)",
+      "price": "Gratuit",
+      "desc": "Extensions et polices de caractères qui mettent en forme un texte pour faciliter le déchiffrage : coloration des syllabes, espacement augmenté, police adaptée.",
+      "tip": "Gratuits et légers — un bon premier réflexe avant d'investir dans un outil payant pour un élève en difficulté de lecture.",
+      "link": "http://lirecouleur.arkaline.fr"
+    },
+    {
+      "cat": "access",
+      "catLabel": "Accessibilité & inclusion",
+      "name": "Lecteur immersif (Microsoft)",
+      "price": "Gratuit",
+      "desc": "Fonctionnalité intégrée à Word et Teams qui lit un texte à voix haute, traduit à la volée et permet d'isoler les lignes pour réduire la charge visuelle.",
+      "tip": "Déjà présent dans Microsoft 365 Education si votre établissement l'utilise — aucun outil supplémentaire à installer.",
+      "link": "https://www.microsoft.com/education/products/immersive-reader"
+    },
+    {
+      "cat": "tutor",
+      "catLabel": "Tutorat élèves",
+      "name": "Khanmigo (Khan Academy)",
+      "price": "Gratuit pour les enseignants",
+      "desc": "Tuteur IA socratique : il guide l'élève par des questions plutôt que de donner la réponse directement, dans l'esprit des exercices Khan Academy.",
+      "tip": "Pas d'interface en français ni en arabe — plus adapté aux classes bilingues avancées ou à l'auto-formation des enseignants.",
+      "link": "https://www.khanmigo.ai"
+    },
+    {
+      "cat": "organize",
+      "catLabel": "Organisation & productivité",
+      "name": "Notion AI",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Assistant intégré à Notion pour résumer, reformuler ou structurer vos notes de préparation, banques d'exercices et suivis d'élèves.",
+      "tip": "Surtout utile si vous centralisez déjà vos préparations et vos progressions dans Notion ou un outil similaire.",
+      "link": "https://www.notion.com/product/ai"
+    },
+    {
+      "cat": "detect",
+      "catLabel": "Intégrité académique",
+      "name": "GPTZero",
+      "price": "Gratuit (limité) / payant",
+      "desc": "Détecteur de texte généré par IA, conçu spécifiquement pour un usage enseignant en établissement scolaire.",
+      "tip": "Traitez le résultat comme un indice, jamais une preuve : les taux de faux positifs restent significatifs sur des textes bien écrits par de vrais élèves.",
+      "link": "https://gptzero.me"
+    },
+    {
+      "cat": "detect",
+      "catLabel": "Intégrité académique",
+      "name": "Compilatio",
+      "price": "Selon établissement",
+      "desc": "Solution francophone combinant détection de plagiat classique et détection de texte généré par IA, utilisée par de nombreux établissements francophones.",
+      "tip": "Son avantage : une base de comparaison adaptée aux productions académiques en français.",
+      "link": "https://www.compilatio.net"
+    },
+    {
+      "cat": "detect",
+      "catLabel": "Intégrité académique",
+      "name": "Turnitin",
+      "price": "Selon établissement",
+      "desc": "Référence historique de la détection de plagiat, avec un module de détection de contenu IA intégrable aux plateformes de gestion des cours.",
+      "tip": "Surtout pertinent si votre établissement dispose déjà d'un LMS compatible (Moodle, Canvas...).",
+      "link": "https://www.turnitin.com"
+    }
+  ],
+  "PROMPTS": [
+    {
+      "cat": "seq",
+      "catLabel": "Préparation de séquence",
+      "title": "Séquence complète alignée programme",
+      "text": "Agis comme un conseiller pédagogique expérimenté. Je suis enseignant de [matière] en [niveau, ex. 3e année collège] au Maroc. Je dois préparer une séquence sur [thème/notion].\n\nÉlabore un plan détaillé sur [nombre] séances comprenant, pour chacune : les objectifs d'apprentissage, une activité d'introduction engageante, la présentation des notions clés avec exemples concrets, 2-3 activités d'application (individuelles et collaboratives), une évaluation formative, et des pistes de différenciation.\n\nPrécise en fin de réponse les points à vérifier par rapport au programme officiel marocain, que je validerai moi-même."
+    },
+    {
+      "cat": "seq",
+      "catLabel": "Préparation de séquence",
+      "title": "Fiche de préparation express",
+      "text": "Génère une fiche de préparation de séance de [durée] pour des élèves de [niveau] sur [thème], au format prêt à imprimer.\n\nInclure : objectif de séance en une phrase, matériel nécessaire, déroulé minuté (accroche, notion, exercices, bilan), et un exercice de rattrapage pour les élèves absents la fois précédente."
+    },
+    {
+      "cat": "seq",
+      "catLabel": "Préparation de séquence",
+      "title": "Adapter une leçon à un autre niveau",
+      "text": "Voici une leçon initialement prévue pour des élèves de [niveau A] : [coller la leçon].\n\nAdapte-la pour des élèves de [niveau B]. Garde le même objectif d'apprentissage mais ajuste le vocabulaire, la complexité des exemples et la difficulté des exercices en conséquence."
+    },
+    {
+      "cat": "diff",
+      "catLabel": "Différenciation",
+      "title": "Trois niveaux de difficulté",
+      "text": "Voici un exercice destiné à des élèves de [niveau] : [coller l'exercice].\n\nPropose trois versions : une version simplifiée (élèves en difficulté), la version d'origine, et une version approfondie (élèves avancés). Garde le même objectif d'apprentissage et le même format de réponse pour les trois."
+    },
+    {
+      "cat": "diff",
+      "catLabel": "Différenciation",
+      "title": "Simplifier un texte pour un élève en difficulté",
+      "text": "Simplifie ce texte pour un élève de [niveau] en difficulté de lecture, sans en dénaturer le sens : [coller le texte].\n\nUtilise des phrases courtes, un vocabulaire simple, et ajoute entre parenthèses une explication rapide pour les mots qui doivent rester techniques."
+    },
+    {
+      "cat": "diff",
+      "catLabel": "Différenciation",
+      "title": "Adapter pour un besoin spécifique",
+      "text": "J'ai un élève avec [décrire le besoin de façon anonymisée, ex. « des difficultés d'attention soutenue »] dans ma classe de [niveau].\n\nPropose des adaptations concrètes pour l'activité suivante, sans l'isoler du reste de la classe : [coller l'activité]."
+    },
+    {
+      "cat": "eval",
+      "catLabel": "Évaluation",
+      "title": "QCM progressif avec corrigé",
+      "text": "Conçois un QCM de [nombre] questions sur [thème] pour des élèves de [niveau], en difficulté progressive (facile → difficile).\n\nPour chaque question : 4 propositions plausibles, la bonne réponse indiquée, et une justification courte de la réponse pour la correction."
+    },
+    {
+      "cat": "eval",
+      "catLabel": "Évaluation",
+      "title": "Évaluation diagnostique de début de séquence",
+      "text": "Conçois une évaluation diagnostique de 15 minutes sur [thème] pour des élèves de [niveau], en début de séquence.\n\nElle doit mesurer les prérequis nécessaires, repérer les représentations erronées fréquentes, être rapide à corriger, et orienter ma différenciation pour la suite de la séquence."
+    },
+    {
+      "cat": "eval",
+      "catLabel": "Évaluation",
+      "title": "Grille de correction (rubrique)",
+      "text": "Crée une grille de correction pour l'évaluation suivante : [coller le sujet ou décrire la tâche].\n\nStructure-la en [nombre] critères (ex. compréhension, méthode, rédaction), avec pour chaque critère 4 niveaux de réussite décrits en une phrase claire et le barème de points associé."
+    },
+    {
+      "cat": "comm",
+      "catLabel": "Communication",
+      "title": "Message aux parents",
+      "text": "Rédige un message court et respectueux aux parents d'un élève de [niveau], concernant [motif : absence répétée / progrès notable / difficulté observée].\n\nTon bienveillant mais factuel, sans jugement, en une dizaine de lignes, en [français / arabe]."
+    },
+    {
+      "cat": "comm",
+      "catLabel": "Communication",
+      "title": "Appréciation de bulletin",
+      "text": "Rédige une appréciation de bulletin pour un élève de [niveau] en [matière].\n\nÉléments réels à intégrer : [lister 2-3 observations factuelles, ex. « participe activement », « peine sur les rédactions longues »]. Ton constructif, 2-3 phrases, qui valorise un point fort avant de nommer un axe de progrès."
+    },
+    {
+      "cat": "comm",
+      "catLabel": "Communication",
+      "title": "Compte-rendu de conseil de classe",
+      "text": "Aide-moi à structurer mes notes pour le conseil de classe de [niveau].\n\nVoici mes observations en vrac : [coller vos notes]. Organise-les en un compte-rendu synthétique par grandes tendances (points forts de la classe, difficultés communes, cas particuliers à signaler), prêt à être présenté oralement en 3 minutes."
+    },
+    {
+      "cat": "gestion",
+      "catLabel": "Gestion de classe",
+      "title": "Activité brise-glace",
+      "text": "Propose une activité brise-glace de 5 minutes pour démarrer un cours de [matière] avec des élèves de [niveau], en lien avec le thème du jour : [thème].\n\nElle doit capter l'attention immédiatement, ne nécessiter aucun matériel, et amener naturellement vers la notion du cours."
+    },
+    {
+      "cat": "gestion",
+      "catLabel": "Gestion de classe",
+      "title": "Redynamiser un cours qui s'essouffle",
+      "text": "Ma classe de [niveau] montre des signes de décrochage d'attention en milieu de séance sur [matière].\n\nPropose 3 micro-activités de 3 à 5 minutes pour relancer l'énergie du groupe sans perdre le fil de la leçon en cours sur [thème]."
+    },
+    {
+      "cat": "reme",
+      "catLabel": "Remédiation",
+      "title": "Plan de remédiation ciblé",
+      "text": "Un groupe d'élèves de [niveau] n'a pas acquis la notion suivante : [notion]. Voici les erreurs typiques observées : [décrire les erreurs].\n\nPropose un plan de remédiation en 2 séances courtes, avec une activité diagnostique brève, une explication reformulée de la notion, et des exercices d'entraînement gradués."
+    },
+    {
+      "cat": "reme",
+      "catLabel": "Remédiation",
+      "title": "Explication simplifiée d'une notion difficile",
+      "text": "Explique [notion] à un élève de [niveau] qui n'a rien compris en cours.\n\nUtilise une analogie concrète tirée de la vie quotidienne, un vocabulaire simple, et termine par un exemple d'application très guidé."
+    },
+    {
+      "cat": "matiere",
+      "catLabel": "Par matière",
+      "title": "Langues — dialogue à réemployer",
+      "text": "Agis comme un professeur de [langue : français / arabe / anglais] en [niveau]. Crée un dialogue de 12 à 16 répliques sur le thème [thème], naturel et réaliste.\n\nIntègre 10 expressions idiomatiques ou structures grammaticales ciblées : [lister les structures travaillées]. Fournis ensuite une liste de ces expressions avec leur traduction et un exemple d'usage."
+    },
+    {
+      "cat": "matiere",
+      "catLabel": "Par matière",
+      "title": "Sciences — protocole expérimental sécurisé",
+      "text": "Agis comme un professeur de [SVT / physique-chimie] en [niveau] dans un collège/lycée marocain avec un matériel de laboratoire standard.\n\nPropose un protocole d'expérience sur [notion], réalisable avec du matériel courant, avec les consignes de sécurité à rappeler aux élèves et les résultats attendus."
+    },
+    {
+      "cat": "matiere",
+      "catLabel": "Par matière",
+      "title": "Mathématiques — problèmes progressifs",
+      "text": "Génère 10 exercices progressifs (du plus facile au plus difficile) sur [notion mathématique] pour un niveau [niveau].\n\nPour chaque exercice, fournis l'énoncé puis, séparément, une correction détaillée étape par étape, avec la méthode explicitée et non seulement le résultat final."
+    },
+    {
+      "cat": "matiere",
+      "catLabel": "Par matière",
+      "title": "Histoire-Géographie — étude de document",
+      "text": "Agis comme un professeur d'histoire-géographie en [niveau]. Propose une étude de document sur [thème/événement/carte], avec un texte ou une description de document source, 5 questions de compréhension et 2 questions d'analyse critique invitant à confronter le document à d'autres sources."
+    },
+    {
+      "cat": "prof",
+      "catLabel": "Développement professionnel",
+      "title": "Comprendre un concept pédagogique",
+      "text": "Explique-moi simplement le concept de [concept pédagogique ou didactique, ex. « la métacognition », « la classe inversée »], avec une définition claire et un exemple concret d'application dans l'enseignement de [ma matière] au [niveau]."
+    },
+    {
+      "cat": "prof",
+      "catLabel": "Développement professionnel",
+      "title": "Préparer une observation de classe",
+      "text": "Je vais recevoir une visite d'inspection/observation sur une séance de [thème] en [niveau]. Voici mon déroulé : [coller le déroulé de séance].\n\nAide-moi à anticiper 5 questions qu'un inspecteur pourrait poser sur mes choix pédagogiques, et propose une justification argumentée pour chacune."
+    }
+  ],
+  "TUTOS": [
+    {
+      "cat": "prep",
+      "diff": "debutant",
+      "duration": "15 min",
+      "tools": [
+        "ChatGPT / Claude",
+        "Canva"
+      ],
+      "title": "Créer une séquence différenciée en 15 minutes",
+      "objective": "Passer d'un simple thème de cours à une séquence complète, déclinée en trois niveaux, prête à mettre en forme.",
+      "steps": [
+        {
+          "t": "Cadrer la demande",
+          "d": "Notez matière, niveau, thème et durée sur un brouillon avant d'ouvrir l'IA.",
+          "tip": "Plus ces quatre éléments sont précis, moins vous retoucherez le résultat ensuite."
+        },
+        {
+          "t": "Générer un premier plan",
+          "d": "Utilisez le prompt « Séquence complète alignée programme » du chapitre 04 dans l'outil de votre choix (ChatGPT, Claude, Gemini)."
+        },
+        {
+          "t": "Vérifier l'alignement programme",
+          "d": "Comparez les objectifs générés à votre programme officiel : gardez ce qui correspond, ajustez ou supprimez le reste.",
+          "tip": "C'est l'étape la plus importante — ne la sautez jamais, même sous pression de temps."
+        },
+        {
+          "t": "Décliner en trois niveaux",
+          "d": "Reprenez les activités d'application générées et appliquez le prompt « Trois niveaux de difficulté » pour obtenir vos variantes."
+        },
+        {
+          "t": "Mettre en forme",
+          "d": "Collez le tout dans Canva ou Gamma pour un support visuel propre, prêt à projeter ou imprimer."
+        }
+      ],
+      "result": "Une séquence complète, avec activités graduées et évaluation formative, formatée et imprimable.",
+      "pitfall": "Copier-coller le plan généré sans vérifier l'alignement avec le programme marocain — c'est l'erreur la plus fréquente en démarrant."
+    },
+    {
+      "cat": "eval",
+      "diff": "debutant",
+      "duration": "20 min",
+      "tools": [
+        "ChatGPT / Claude"
+      ],
+      "title": "Générer une évaluation et sa grille de correction",
+      "objective": "Obtenir en une seule session un sujet d'évaluation cohérent et son barème, prêts à distribuer.",
+      "steps": [
+        {
+          "t": "Choisir le format d'évaluation",
+          "d": "Décidez si vous voulez un QCM, une évaluation diagnostique ou une tâche complexe — chaque format a son prompt dédié au chapitre 04."
+        },
+        {
+          "t": "Générer les questions",
+          "d": "Lancez le prompt correspondant en précisant bien le niveau de difficulté souhaité et le nombre de questions."
+        },
+        {
+          "t": "Relire chaque question",
+          "d": "Vérifiez qu'aucune question n'est ambiguë et que les distracteurs du QCM sont réellement plausibles, pas absurdes.",
+          "tip": "Un distracteur trop évident invalide la question — demandez à l'IA de le remplacer si besoin."
+        },
+        {
+          "t": "Générer la grille de correction",
+          "d": "Utilisez le prompt « Grille de correction » en collant le sujet final pour obtenir des critères alignés."
+        },
+        {
+          "t": "Tester le barème",
+          "d": "Simulez une copie moyenne mentalement : le barème doit permettre de la noter sans hésitation avant de le distribuer."
+        }
+      ],
+      "result": "Un sujet d'évaluation complet accompagné d'une grille de correction cohérente, prêts à l'emploi.",
+      "pitfall": "Distribuer un QCM sans avoir vérifié une à une la plausibilité des mauvaises réponses proposées."
+    },
+    {
+      "cat": "write",
+      "diff": "intermediaire",
+      "duration": "15 min",
+      "tools": [
+        "Claude / ChatGPT"
+      ],
+      "title": "Donner un feedback rapide sur des rédactions",
+      "objective": "Produire un retour individualisé et bienveillant sur une copie d'élève, sans perdre une soirée entière.",
+      "steps": [
+        {
+          "t": "Anonymiser les copies",
+          "d": "Retirez tout nom avant de coller un texte d'élève dans un outil IA — c'est une règle non négociable (voir chapitre 07).",
+          "tip": "Remplacez le nom par « l'élève » directement dans le fichier avant de le copier."
+        },
+        {
+          "t": "Définir la grille de lecture",
+          "d": "Précisez à l'IA ce sur quoi porter le feedback : structure, argumentation, orthographe, ou les trois."
+        },
+        {
+          "t": "Demander un retour constructif",
+          "d": "Prompt type : « Donne un retour en 3 points sur ce texte, un point fort et deux axes d'amélioration précis, ton bienveillant. »"
+        },
+        {
+          "t": "Adapter le ton avant diffusion",
+          "d": "Relisez et personnalisez la formulation : un retour trop généré perd sa valeur pédagogique aux yeux de l'élève."
+        },
+        {
+          "t": "Garder une trace",
+          "d": "Notez pour vous-même les erreurs récurrentes détectées : elles orientent votre prochaine séance de remédiation collective."
+        }
+      ],
+      "result": "Un retour individuel structuré et actionnable pour chaque élève, en une fraction du temps habituel.",
+      "pitfall": "Envoyer le retour généré tel quel, sans reformulation personnelle — l'élève sent vite la différence."
+    },
+    {
+      "cat": "integrity",
+      "diff": "intermediaire",
+      "duration": "10 min",
+      "tools": [
+        "GPTZero",
+        "Compilatio"
+      ],
+      "title": "Vérifier un texte suspect d'IA sans se fier qu'au détecteur",
+      "objective": "Se faire un jugement fiable sur un texte suspect, sans reposer toute la décision sur un seul outil automatisé.",
+      "steps": [
+        {
+          "t": "Ne pas accuser sur la seule base du détecteur",
+          "d": "Les outils comme GPTZero ont un taux d'erreur réel : un score élevé est un indice, pas une preuve suffisante."
+        },
+        {
+          "t": "Comparer au style habituel de l'élève",
+          "d": "Relisez un travail antérieur de cet élève : un écart brutal de niveau ou de vocabulaire est plus révélateur qu'un score automatique."
+        },
+        {
+          "t": "Passer le texte dans deux détecteurs",
+          "d": "Croisez au moins deux outils différents (ex. GPTZero et Compilatio) — la convergence des résultats renforce la fiabilité de votre jugement."
+        },
+        {
+          "t": "Engager le dialogue, pas la sanction directe",
+          "d": "Demandez à l'élève d'expliquer oralement un passage de son texte : c'est souvent le test le plus fiable.",
+          "tip": "Une question simple comme « peux-tu me réexpliquer cette phrase autrement ? » révèle beaucoup."
+        },
+        {
+          "t": "Documenter la démarche",
+          "d": "Conservez une trace de votre raisonnement avant toute sanction, conformément au règlement intérieur de votre établissement."
+        }
+      ],
+      "result": "Un jugement argumenté et défendable, construit sur plusieurs indices convergents plutôt que sur un seul score.",
+      "pitfall": "Sanctionner un élève sur la seule foi d'un pourcentage affiché par un détecteur automatique."
+    },
+    {
+      "cat": "prep",
+      "diff": "intermediaire",
+      "duration": "20 min",
+      "tools": [
+        "NotebookLM"
+      ],
+      "title": "Adapter un document existant (PDF, manuel) avec l'IA",
+      "objective": "Transformer un extrait de manuel ou un PDF officiel en version adaptée, fidèle au contenu source.",
+      "steps": [
+        {
+          "t": "Extraire le texte utile",
+          "d": "Copiez le passage du manuel ou du PDF que vous voulez adapter — évitez de coller un chapitre entier d'un coup."
+        },
+        {
+          "t": "Choisir l'objectif d'adaptation",
+          "d": "Simplifier le niveau de langue ? Raccourcir ? Ajouter des questions ? Formulez un objectif unique par demande."
+        },
+        {
+          "t": "Utiliser NotebookLM pour les gros documents",
+          "d": "Pour un manuel entier, importez-le dans NotebookLM plutôt que de copier-coller : les réponses resteront fidèles à la source.",
+          "tip": "NotebookLM ne répond qu'à partir de vos documents : c'est le choix le plus sûr contre les hallucinations."
+        },
+        {
+          "t": "Comparer avec l'original",
+          "d": "Relisez la version adaptée à côté de l'originale pour vérifier qu'aucune information importante n'a été perdue ou déformée."
+        },
+        {
+          "t": "Respecter les droits d'usage",
+          "d": "Un manuel scolaire reste protégé par des droits d'auteur : gardez cette adaptation à usage pédagogique interne, non diffusée publiquement."
+        }
+      ],
+      "result": "Une version adaptée d'un document existant, fidèle au sens original et prête pour votre classe.",
+      "pitfall": "Diffuser publiquement une adaptation d'un manuel protégé par des droits d'auteur."
+    },
+    {
+      "cat": "research",
+      "diff": "debutant",
+      "duration": "10 min",
+      "tools": [
+        "Perplexity"
+      ],
+      "title": "Rechercher une information fiable et à jour avec Perplexity",
+      "objective": "Vérifier un fait ou un chiffre récent avant de le citer en classe, en remontant systématiquement à la source.",
+      "steps": [
+        {
+          "t": "Poser une question précise",
+          "d": "Évitez les questions trop larges : « chiffres du chômage des jeunes au Maroc en 2026 » plutôt que « parle-moi du chômage »."
+        },
+        {
+          "t": "Lire la réponse synthétique",
+          "d": "Perplexity répond en quelques lignes sourcées — lisez-la comme un point de départ, pas comme une vérité définitive."
+        },
+        {
+          "t": "Ouvrir au moins une source citée",
+          "d": "Cliquez sur une des sources listées pour vérifier le contexte complet avant de citer le chiffre en classe.",
+          "tip": "Une information isolée de son contexte peut être vraie mais trompeuse."
+        },
+        {
+          "t": "Approfondir si besoin",
+          "d": "Utilisez la fonction de recherche approfondie pour un sujet qui mérite plusieurs sources croisées, par exemple pour préparer un débat argumenté."
+        },
+        {
+          "t": "Citer vos sources devant les élèves",
+          "d": "Montrez d'où vient l'information : c'est aussi une occasion d'enseigner la vérification des sources en direct."
+        }
+      ],
+      "result": "Une information vérifiée et sourcée, que vous pouvez citer en classe en toute confiance.",
+      "pitfall": "Répéter le résumé de Perplexity sans avoir ouvert une seule des sources citées."
+    },
+    {
+      "cat": "interactive",
+      "diff": "debutant",
+      "duration": "5-10 min",
+      "tools": [
+        "Kahoot!",
+        "Wooclap",
+        "Nearpod"
+      ],
+      "title": "Créer un quiz interactif engageant en 5 minutes",
+      "objective": "Transformer une liste de questions en activité de classe vivante, avec résultats exploitables immédiatement.",
+      "steps": [
+        {
+          "t": "Choisir l'outil selon l'usage",
+          "d": "Kahoot pour une ambiance de jeu compétitive, Wooclap si vous voulez aussi un sondage ou un nuage de mots, Nearpod pour un suivi individuel sur tablette."
+        },
+        {
+          "t": "Générer les questions avec une IA",
+          "d": "Utilisez le prompt « QCM progressif avec corrigé » du chapitre 04 pour produire rapidement la trame de questions."
+        },
+        {
+          "t": "Importer dans l'outil choisi",
+          "d": "Collez ou recréez les questions dans l'interface — la plupart proposent aussi une génération automatique à partir d'un thème."
+        },
+        {
+          "t": "Tester avant la classe",
+          "d": "Lancez une partie test seul pour vérifier le minutage et la clarté des questions.",
+          "tip": "Un quiz trop long casse le rythme : visez 8 à 10 questions maximum pour une séance de 10 minutes."
+        },
+        {
+          "t": "Lancer en classe et exploiter les résultats",
+          "d": "Projetez le code de session, laissez les élèves rejoindre avec leur téléphone, et utilisez les statistiques de fin de partie pour repérer les notions à revoir."
+        }
+      ],
+      "result": "Un quiz interactif fonctionnel, animé en classe, avec des statistiques de réussite exploitables aussitôt après.",
+      "pitfall": "Ne pas tester le quiz avant la séance — un bug de dernière minute casse toute la dynamique de classe."
+    },
+    {
+      "cat": "diff",
+      "diff": "intermediaire",
+      "duration": "20 min",
+      "tools": [
+        "Diffit",
+        "Speechify",
+        "Lire Couleur"
+      ],
+      "title": "Adapter un support pour un élève à besoins spécifiques",
+      "objective": "Construire un support réellement accessible pour un élève précis, sans le distinguer visiblement du reste de la classe.",
+      "steps": [
+        {
+          "t": "Identifier le besoin précisément",
+          "d": "Difficulté de lecture, d'attention, de motricité fine ? L'adaptation change radicalement selon le besoin réel de l'élève."
+        },
+        {
+          "t": "Simplifier le texte source",
+          "d": "Utilisez Diffit ou le prompt « Simplifier un texte » du chapitre 04 pour obtenir une version accessible sans perdre le sens."
+        },
+        {
+          "t": "Ajouter un support audio si utile",
+          "d": "Pour un élève dyslexique, passez le texte adapté dans Speechify ou un lecteur immersif pour une version écoutable."
+        },
+        {
+          "t": "Vérifier la mise en forme visuelle",
+          "d": "Police adaptée, espacement augmenté, moins de texte par page — les outils comme Lire Couleur automatisent une partie de ce travail.",
+          "tip": "Imprimez un exemplaire test : une adaptation qui semble claire à l'écran ne l'est pas toujours sur papier."
+        },
+        {
+          "t": "Garder la trace des adaptations",
+          "d": "Notez ce qui fonctionne pour cet élève précis : ces adaptations serviront de base pour les prochaines séquences et pour un éventuel dossier d'accompagnement."
+        }
+      ],
+      "result": "Un support réellement accessible à l'élève concerné, sans le distinguer inutilement du reste de la classe.",
+      "pitfall": "Simplifier le contenu au point de le vider de sa valeur pédagogique réelle."
+    },
+    {
+      "cat": "visual",
+      "diff": "debutant",
+      "duration": "10 min",
+      "tools": [
+        "Gamma"
+      ],
+      "title": "Créer une présentation visuelle percutante avec Gamma",
+      "objective": "Transformer un plan de cours brut en diaporama soigné, sans perdre de temps sur la mise en forme.",
+      "steps": [
+        {
+          "t": "Préparer un plan texte clair",
+          "d": "Listez vos idées principales avec un titre par diapositive envisagée — Gamma travaille mieux à partir d'une structure déjà dégrossie."
+        },
+        {
+          "t": "Générer la présentation",
+          "d": "Collez votre plan dans Gamma et laissez l'outil proposer une mise en page automatique."
+        },
+        {
+          "t": "Choisir un thème sobre",
+          "d": "Préférez un thème visuel épuré : les thèmes trop chargés distraient de votre propos en classe.",
+          "tip": "Un fond trop coloré fatigue la lecture sur un vidéoprojecteur d'ancienne génération, encore courant dans certains établissements."
+        },
+        {
+          "t": "Vérifier le contenu diapositive par diapositive",
+          "d": "Gamma reformule parfois vos idées : relisez chaque diapositive pour vous assurer qu'aucun sens n'a été déformé."
+        },
+        {
+          "t": "Exporter en PDF de secours",
+          "d": "Téléchargez une version PDF avant la classe, au cas où la connexion internet ferait défaut le jour J."
+        }
+      ],
+      "result": "Un diaporama professionnel et cohérent, prêt à projeter, avec une version PDF de secours.",
+      "pitfall": "Se fier uniquement à la version en ligne sans export de secours — une coupure internet en classe est vite arrivée."
+    },
+    {
+      "cat": "visual",
+      "diff": "intermediaire",
+      "duration": "10 min",
+      "tools": [
+        "Canva Magic Media",
+        "Ideogram"
+      ],
+      "title": "Générer une image pédagogique fiable",
+      "objective": "Créer une illustration ou un schéma légendé sur mesure, quand aucune image libre de droits ne convient.",
+      "steps": [
+        {
+          "t": "Décrire précisément l'image souhaitée",
+          "d": "Précisez le style (schéma, illustration réaliste, dessin simple), les éléments à inclure et ceux à exclure."
+        },
+        {
+          "t": "Choisir l'outil selon le besoin",
+          "d": "Canva Magic Media pour une image d'ambiance ou une illustration ; Ideogram si l'image doit contenir du texte lisible (étiquettes, légendes)."
+        },
+        {
+          "t": "Générer plusieurs variantes",
+          "d": "Demandez 2 à 3 versions et comparez plutôt que de vous contenter du premier résultat."
+        },
+        {
+          "t": "Vérifier l'exactitude du contenu",
+          "d": "Pour un schéma scientifique ou historique, contrôlez chaque détail : une IA peut générer une image esthétique mais factuellement fausse.",
+          "tip": "Faites relire le schéma par un collègue de la matière si le sujet est technique."
+        },
+        {
+          "t": "Adapter la légende manuellement",
+          "d": "Retapez ou corrigez le texte généré dans l'image si nécessaire : le rendu du texte reste parfois imparfait."
+        }
+      ],
+      "result": "Une image pédagogique originale et adaptée exactement à votre besoin, sans dépendre d'une banque d'images externe.",
+      "pitfall": "Projeter en classe un schéma scientifique généré sans en avoir vérifié l'exactitude technique."
+    },
+    {
+      "cat": "research",
+      "diff": "debutant",
+      "duration": "15 min",
+      "tools": [
+        "NotebookLM"
+      ],
+      "title": "Créer un podcast de révision audio avec NotebookLM",
+      "objective": "Transformer un chapitre de cours en résumé audio à deux voix, pour des révisions à écouter en dehors de la classe.",
+      "steps": [
+        {
+          "t": "Importer vos documents de cours",
+          "d": "Chargez dans NotebookLM le chapitre, la fiche de révision ou les diapositives concernées."
+        },
+        {
+          "t": "Vérifier la liste des sources",
+          "d": "Assurez-vous que seuls les documents pertinents sont importés : NotebookLM ne s'appuiera que sur eux."
+        },
+        {
+          "t": "Lancer la génération audio",
+          "d": "Activez la fonction Audio Overview : l'outil produit un dialogue de quelques minutes qui résume et discute le contenu.",
+          "tip": "La génération peut prendre plusieurs minutes — lancez-la en début de préparation de séance."
+        },
+        {
+          "t": "Écouter et vérifier",
+          "d": "Contrôlez qu'aucune notion n'a été déformée ou simplifiée à l'excès avant de le partager aux élèves."
+        },
+        {
+          "t": "Partager comme ressource complémentaire",
+          "d": "Proposez ce podcast comme support de révision optionnel, en complément du cours — jamais en remplacement."
+        }
+      ],
+      "result": "Un podcast de révision fidèle à votre cours, utilisable par les élèves en autonomie.",
+      "pitfall": "Diffuser l'audio généré sans l'avoir écouté en entier au préalable."
+    },
+    {
+      "cat": "math",
+      "diff": "debutant",
+      "duration": "10 min",
+      "tools": [
+        "Wolfram Alpha",
+        "Photomath"
+      ],
+      "title": "Préparer une leçon de mathématiques avec Wolfram Alpha et Photomath",
+      "objective": "Vérifier rapidement des calculs et obtenir plusieurs méthodes de résolution avant de bâtir votre propre explication.",
+      "steps": [
+        {
+          "t": "Saisir le problème type dans Wolfram Alpha",
+          "d": "Utilisez-le pour vérifier vos propres calculs de préparation ou générer une représentation graphique à projeter."
+        },
+        {
+          "t": "Comparer les méthodes de résolution proposées",
+          "d": "Wolfram Alpha affiche souvent plusieurs approches : choisissez celle la plus proche de la méthode enseignée en classe au Maroc."
+        },
+        {
+          "t": "Anticiper l'usage par les élèves",
+          "d": "Gardez en tête que vos élèves ont accès aux mêmes outils via Photomath — prévoyez des exercices qui demandent d'expliquer la démarche, pas seulement un résultat.",
+          "tip": "Une consigne du type « justifie chaque étape » limite l'usage de Photomath comme simple raccourci."
+        },
+        {
+          "t": "Générer un support graphique",
+          "d": "Exportez une courbe ou une figure géométrique de Wolfram Alpha pour illustrer votre cours plutôt que de la redessiner à la main."
+        },
+        {
+          "t": "Préparer une contre-vérification en classe",
+          "d": "Prévoyez un exercice où les élèves doivent résoudre sans outil, pour vérifier la compréhension réelle au-delà de l'usage de l'IA."
+        }
+      ],
+      "result": "Une leçon appuyée sur des calculs vérifiés et des représentations graphiques précises, avec des exercices conçus pour limiter la triche.",
+      "pitfall": "Concevoir une évaluation entièrement composée d'exercices que Photomath résout en une photo."
+    }
+  ],
+  "TIPS": [
+    {
+      "t": "Vérifiez toujours les faits",
+      "d": "Une IA peut inventer une date, un chiffre ou une référence avec la même assurance qu'un fait exact. Ne transmettez jamais un contenu généré sans relecture."
+    },
+    {
+      "t": "Anonymisez systématiquement",
+      "d": "Aucun nom, aucune photo, aucune donnée identifiable d'élève mineur dans un outil grand public. C'est la règle la plus simple à retenir."
+    },
+    {
+      "t": "Itérez plutôt que de chercher le prompt parfait",
+      "d": "Un premier résultat moyen vaut mieux qu'un prompt sans fin : demandez « raccourcis », « simplifie » ou « ajoute un exemple » en relance."
+    },
+    {
+      "t": "Gardez la main sur les choix pédagogiques",
+      "d": "L'IA propose des activités ; vous seul savez si elles conviennent à votre classe réelle, avec ses forces et ses difficultés du moment."
+    },
+    {
+      "t": "Précisez toujours niveau, durée et format",
+      "d": "Ces trois informations, à elles seules, éliminent la majorité des résultats trop génériques ou inutilisables tels quels."
+    },
+    {
+      "t": "Demandez plusieurs versions et comparez",
+      "d": "Générer deux ou trois variantes d'un même exercice coûte quelques secondes de plus et améliore nettement le résultat final retenu."
+    },
+    {
+      "t": "Utilisez l'IA pour varier, pas pour remplacer votre préparation",
+      "d": "Elle est plus utile pour multiplier des variantes d'exercices que pour concevoir l'architecture pédagogique d'une séquence entière."
+    },
+    {
+      "t": "Formez vos élèves plutôt que d'interdire dans le vide",
+      "d": "Une interdiction difficile à faire respecter forme moins bien qu'une séance dédiée à décortiquer les limites réelles de l'IA."
+    },
+    {
+      "t": "Recalibrez sur le programme marocain",
+      "d": "La plupart des outils sont calibrés sur des standards étrangers : vérifiez systématiquement l'alignement avec vos objectifs officiels."
+    },
+    {
+      "t": "Distinguez ce que vous avez écrit de ce qui est généré",
+      "d": "Gardez cette transparence au moins pour vous-même : elle aide à rester conscient de la part réelle de votre expertise dans chaque document."
+    },
+    {
+      "t": "Croisez plusieurs outils plutôt qu'un seul",
+      "d": "Perplexity pour vérifier un fait, Claude pour reformuler, Canva pour mettre en forme : chaque outil a un point fort, aucun ne fait tout parfaitement."
+    },
+    {
+      "t": "Le gratuit a des limites cachées",
+      "d": "Nombre de requêtes, longueur de texte, historique effacé : lisez les conditions avant de construire toute une progression sur un plan gratuit fragile."
+    },
+    {
+      "t": "Suivez la méthode Rôle-Tâche-Format-Contraintes",
+      "d": "Voir le chapitre 02 : ces quatre éléments, presque toujours, suffisent à transformer un résultat générique en support directement utilisable."
+    },
+    {
+      "t": "Ne perdez pas votre style personnel",
+      "d": "Un commentaire de bulletin ou un mot aux parents entièrement généré peut sonner impersonnel : gardez toujours une touche de reformulation qui vous ressemble."
+    },
+    {
+      "t": "Pensez à l'impact environnemental",
+      "d": "Évitez de générer dix versions d'une même image par curiosité : une génération ciblée suffit la plupart du temps."
+    },
+    {
+      "t": "Documentez ce qui fonctionne pour vous",
+      "d": "Gardez une note personnelle des prompts qui ont bien marché avec vos classes : c'est votre propre bibliothèque qui se construit avec le temps."
+    }
+  ],
+  "GLOSSARY": [
+    {
+      "t": "Prompt",
+      "d": "L'instruction textuelle que vous donnez à l'IA. Sa précision détermine presque entièrement la qualité de la réponse obtenue."
+    },
+    {
+      "t": "Hallucination",
+      "d": "Quand une IA invente une information fausse avec la même assurance qu'un fait exact — le risque numéro un à surveiller en contexte scolaire."
+    },
+    {
+      "t": "LLM (grand modèle de langage)",
+      "d": "Le type de modèle derrière ChatGPT, Claude ou Gemini : entraîné sur d'immenses volumes de texte pour prédire la suite la plus probable d'une phrase."
+    },
+    {
+      "t": "Token",
+      "d": "L'unité de texte (environ un mot ou une syllabe) que l'IA traite à la fois — la base de calcul de la plupart des limites d'usage et des tarifs."
+    },
+    {
+      "t": "Fenêtre de contexte",
+      "d": "La quantité de texte qu'une IA peut « retenir » dans une même conversation avant de commencer à oublier le début de l'échange."
+    },
+    {
+      "t": "Modèle multimodal",
+      "d": "Une IA capable de traiter plusieurs types de contenu — texte, image, audio — dans une même conversation, comme la plupart des assistants récents."
+    },
+    {
+      "t": "RAG (génération augmentée par récupération)",
+      "d": "La technique utilisée par des outils comme NotebookLM ou Perplexity pour ancrer les réponses dans des documents ou sources réelles plutôt que dans la seule mémoire du modèle."
+    },
+    {
+      "t": "Biais algorithmique",
+      "d": "Une tendance systématique d'une IA à privilégier certains contenus, cultures ou points de vue selon les données sur lesquelles elle a été entraînée."
+    },
+    {
+      "t": "Deepfake",
+      "d": "Un contenu (image, audio, vidéo) généré ou modifié par IA pour imiter une personne réelle de façon trompeuse — un sujet à aborder avec les élèves en éducation aux médias."
+    },
+    {
+      "t": "Fine-tuning (spécialisation)",
+      "d": "Le réentraînement d'un modèle existant sur des données spécifiques pour le rendre plus performant sur une tâche précise."
+    }
+  ],
+  "SOURCES": [
+    {
+      "name": "UNESCO — L'intelligence artificielle dans l'éducation",
+      "desc": "Portail de référence sur les politiques, risques et potentialités de l'IA pour l'Agenda Éducation 2030.",
+      "url": "https://www.unesco.org/fr/digital-education/artificial-intelligence"
+    },
+    {
+      "name": "UNESCO — Recommandation sur l'éthique de l'IA (2021)",
+      "desc": "Le texte normatif applicable aux 194 États membres, avec un domaine d'action dédié à l'éducation et la recherche.",
+      "url": "https://www.unesco.org/fr/artificial-intelligence/recommendation-ethics"
+    },
+    {
+      "name": "UNESCO — Référentiels de compétences en IA (enseignants et élèves)",
+      "desc": "Deux référentiels publiés en 2024 pour structurer une progression des compétences IA à l'école.",
+      "url": "https://www.unesco.org/fr/articles/ce-quil-faut-savoir-sur-les-nouveaux-referentiels-de-competences-en-ia-de-lunesco-pour-les-eleves-et"
+    },
+    {
+      "name": "UNESCO — Orientations pour l'IA générative dans l'éducation",
+      "desc": "Premières recommandations pratiques pour encadrer l'usage de l'IA générative en contexte scolaire et universitaire.",
+      "url": "https://www.unesco.org/fr/articles/orientations-pour-lintelligence-artificielle-generative-dans-leducation-et-la-recherche"
+    },
+    {
+      "name": "Ministère de l'Éducation nationale, du Préscolaire et des Sports (Maroc)",
+      "desc": "Site officiel du MEN — actualités, feuille de route numérique et communiqués sur la réforme éducative.",
+      "url": "https://www.men.gov.ma"
+    },
+    {
+      "name": "MEN — Feuille de route « AI Made in Morocco »",
+      "desc": "Communiqué officiel sur le lancement de la stratégie nationale IA appliquée à la réforme éducative, janvier 2026.",
+      "url": "https://www.men.gov.ma/fr/actualites/lancement-de-la-feuille-de-route-du-maroc-pour-l%E2%80%99intelligence-artificielle-en-appui-%C3%A0-la-r%C3%A9forme-%C3%A9ducative"
+    },
+    {
+      "name": "CSEFRS — Conseil supérieur de l'éducation, de la formation et de la recherche scientifique",
+      "desc": "Instance consultative marocaine ; a adopté en avril 2026 une recommandation sur la gouvernance de l'IA à l'école.",
+      "url": "https://www.csefrs.ma"
+    },
+    {
+      "name": "CNIL — Protection des données personnelles",
+      "desc": "Autorité francophone de référence sur la protection des données, utile pour comprendre les bons réflexes avec des outils IA et des données d'élèves.",
+      "url": "https://www.cnil.fr"
+    },
+    {
+      "name": "Réseau Canopé — ressources numériques éducatives",
+      "desc": "Opérateur français de ressources pédagogiques et d'accessibilité numérique, dont une partie des contenus reste transférable au contexte marocain.",
+      "url": "https://www.reseau-canope.fr"
+    },
+    {
+      "name": "LesEco.ma — Comment encadrer l'essor de l'IA à l'école (Maroc)",
+      "desc": "Analyse de la situation marocaine : infrastructures, recommandation du CSEFRS, écarts entre usages et régulation.",
+      "url": "https://leseco.ma/maroc/maroc-comment-encadrer-lessor-de-lia-a-lecole.html"
+    },
+    {
+      "name": "LesEco.ma — Enseignants marocains face à l'IA (enquête TALIS 2024)",
+      "desc": "Données chiffrées sur la préparation réelle des enseignants marocains face à l'intégration de l'IA en classe.",
+      "url": "https://leseco.ma/maroc/maroc-la-majorite-des-enseignants-encore-peu-prepares-a-lia.html"
+    },
+    {
+      "name": "OCDE — Éducation",
+      "desc": "Travaux de l'OCDE sur l'IA, les compétences futures et l'impact du numérique sur l'apprentissage.",
+      "url": "https://www.oecd.org"
+    }
+  ]
+}
