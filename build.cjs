@@ -3,6 +3,7 @@ const ROOT=__dirname,D=path.join(ROOT,'dist');
 const original=JSON.parse(fs.readFileSync(path.join(ROOT,'content/source-originale.json'),'utf8'));
 const {resources,date}=require('./content/catalogue.cjs');
 require('./content/scolaria.cjs').enrich(resources);
+require('./content/evolution.cjs').enrich(resources);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const icons={home:'M3 10 12 3l9 7v11h-6v-7H9v7H3Z',book:'M3 4h7l2 2 2-2h7v16h-7l-2 1-2-1H3ZM12 6v15',grid:'M3 3h7v7H3ZM14 3h7v7h-7ZM3 14h7v7H3ZM14 14h7v7h-7Z',prompt:'M4 5h16v12H9l-5 4ZM8 9l3 2-3 2m6 0h3',play:'M5 3h14v18H5Zm5 5 5 4-5 4Z',check:'M4 4h16v17H4ZM8 11l3 3 5-6',shield:'M12 2 21 6v6c0 5-9 10-9 10S3 17 3 12V6Zm-4 9 3 3 5-6',globe:'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM3 12h18M12 3c5 6 5 12 0 18-5-6-5-12 0-18',star:'M5 3h14v19l-7-5-7 5Z',search:'M18 18l4 4M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z',compass:'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM16 8l-3 5-5 3 3-5Z',users:'M8 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM1 22v-5a7 7 0 0 1 14 0v5M17 3a4 4 0 0 1 0 8m1 3c4 0 5 3 5 6',bulb:'M8 18h8m-7 4h6M7 14a7 7 0 1 1 10 0l-1 2H8Z',clock:'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM12 6v6l4 3'};
 const icon=n=>`<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="${icons[n]||icons.book}"/></svg>`;

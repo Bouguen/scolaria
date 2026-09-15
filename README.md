@@ -2,7 +2,7 @@
 
 ## Utilisation
 
-252 fiches : 53 outils et ressources complémentaires, 52 prompts, 16 tutoriels, 26 scénarios, 50 guides (dont 15 activités élèves, 15 fiches de droit et 10 méthodes d’évaluation), 33 notions et 22 références. S’y ajoutent 11 espaces disciplinaires, 5 niveaux de formation, 10 modules, un diagnostic, 6 exercices de vérification, 10 repères marocains et 5 PDF A4.
+261 fiches : 53 outils et ressources complémentaires, 52 prompts, 16 tutoriels, 26 scénarios, 59 guides (dont 15 activités élèves, 15 fiches de droit et 10 méthodes d’évaluation), 33 notions et 22 références. S’y ajoutent 11 espaces disciplinaires, 5 niveaux de formation, 10 modules, un diagnostic, 6 exercices de vérification, 10 repères marocains et 5 PDF A4. Le lot du 15 septembre ajoute 10 parcours Academy, 9 micro-formations, 6 ateliers Lab et 7 modèles texte imprimables.
 
 Ouvrir le portail avec `Ouvrir-SCOLARIA.cmd` (Node.js requis). Conserver la fenêtre du serveur ouverte. L’adresse locale stable est http://127.0.0.1:8768/ ; elle permet de retrouver le stockage du navigateur. Si le port est déjà utilisé, fermer le serveur précédent. L’ouverture directe des pages sans serveur ne permet pas les fonctions interactives.
 
@@ -35,7 +35,7 @@ Ouvrir le portail avec `Ouvrir-SCOLARIA.cmd` (Node.js requis). Conserver la fen�
 
 ## Publication GitHub et Vercel
 
-Créer un dépôt dédié `scolaria-portail`, puis l’importer comme nouveau projet dans le compte Vercel choisi. Les réglages sont inclus : `npm run build`, sortie `dist`, Node.js 22. Les ressources CSS, JavaScript, images et PDF du dossier `dist` doivent être conservées dans le dépôt : elles font partie des sources livrées.
+Le dépôt est [Bouguen/scolaria](https://github.com/Bouguen/scolaria), connecté au projet `scolaria` de l’équipe Vercel `scolaria`. Le site public est [SCOLARIA](https://scolaria-bay.vercel.app/). Les réglages sont inclus : `npm run build`, sortie `dist`, Node.js 22. Les ressources CSS, JavaScript, images et PDF du dossier `dist` doivent être conservées dans le dépôt : elles font partie des sources livrées.
 
 L’adresse de production Vercel sert automatiquement aux liens canoniques et au plan du site. La variable facultative `SCOLARIA_SITE_URL` permet de définir un domaine personnalisé. [Documentation Vercel](https://vercel.com/docs/environment-variables/system-environment-variables).
 
@@ -60,3 +60,15 @@ Les documents et supports imprimés fonctionnent hors ligne. Les services extern
 ## Vérifications
 
 Identifiants, liens locaux, métadonnées, scripts et fichiers PDF contrôlés. Tests navigateur : formulaire incomplet, génération et sauvegarde, collections persistantes, quiz correct/incorrect, progression, deux profils de diagnostic, six exercices de vérification, recherche transversale, menu mobile et RTL. Le rapport de livraison détaille les contrôles et les accès externes non confirmés.
+
+## Évolution du 15 septembre 2026
+
+- `content/evolution.cjs` : taxonomie, enrichissement prudent des fiches, 10 parcours et 9 micro-formations.
+- `content/i18n.cjs` : textes d’interface séparés par langue ; arabe partiel, amazighe préparé.
+- `evolution-pages.cjs` et `home-evolution.cjs` : nouveaux espaces et accueil orienté besoins.
+- `dist/search-core.js` : recherche par mots utiles et synonymes français, avec un lexique arabe initial.
+- `dist/evolution.js` et `dist/evolution.css` : Lab, Academy, modes du Prompt Builder et maintenance.
+
+La construction produit 367 pages index plus une page 404. Les 252 identifiants antérieurs sont conservés. `catalogue-v2.json`, `taxonomy.json` et `locales.json` exposent le modèle normalisé. Les champs inconnus restent inconnus : une consultation de prix ne valide pas la confidentialité ou l’âge. La vue `/maintenance/` distingue les consultations documentées et les revues à planifier.
+
+Les ateliers Lab assemblent localement des trames ou prompts modifiables. Le quiz et l’adaptation ne génèrent pas de contenu par API IA. La progression Academy utilise une question de contrôle et une réalisation déclarée par l’utilisateur, sans certification. Les exercices courts sont des contenus éditoriaux originaux.
