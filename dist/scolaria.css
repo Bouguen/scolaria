@@ -4,5 +4,5 @@
 
 .mobile-brand{display:none}.signature{max-width:100%;height:auto;margin:20px 0}.low-bandwidth .signature{display:none}@media(max-width:760px){.mobile-brand{display:block;font-weight:800;white-space:nowrap;color:#073456;font-size:14px}.mobile-brand span{color:#08795d}.top-actions{gap:12px}.top-actions>a:first-child{font-size:11px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
-/* Identité visuelle sur l’accueil et sur mobile. */
-.hero-logo{float:right;margin:0 0 18px 25px;background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden}.hero-logo img{display:block;width:260px;height:195px;object-fit:contain}.scolar-hero .searchbox{clear:both}.mobile-brand img{display:block;width:80px;height:60px;object-fit:contain}@media(max-width:1000px){.hero-logo{float:none;display:inline-block;margin:0 0 18px}.hero-logo img{width:200px;height:150px}}@media(max-width:760px){.hero-logo img{width:176px;height:132px}.mobile-brand{flex-shrink:0}.topbar{padding-inline:12px;gap:8px}.top-actions{gap:8px}}
+/* Un seul logo visible : navigation sur ordinateur, en-tête sur mobile. */
+.mobile-brand img{display:block;width:80px;height:60px;object-fit:contain}@media(max-width:760px){.rail .scolar-brand{display:none}.mobile-brand{flex-shrink:0}.topbar{padding-inline:12px;gap:8px}.top-actions{gap:8px}}
